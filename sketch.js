@@ -4,7 +4,7 @@ let startColor;
 let endColor;
 let currentColor;
 let colorStep = 0; // Step for changing colors
-let maxPlantSize = 1.7;
+let maxPlantSize = 1.5;
 let maxPlantHeightReached = false;
 let waterSound;
 let textColor = 'white'; // Initial text color
@@ -28,7 +28,7 @@ function draw() {
   textStyle(BOLD);
   textAlign(CENTER, TOP);
   textSize(50);
-  if (plantSize >= 1.7) {
+  if (plantSize >= 1.5) {
     textColor = color("#fcf6bd"); // Change text color to yellow
   } else {
     textColor = 'white'; // Reset text color to initial color
